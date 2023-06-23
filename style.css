@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    height: 25vh;
+    width: 100%;
+    background-color: #101111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-height: 75vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main section#section_cartelas {
+    height: auto;
+    width: 70%;
+    background-color: #fff;
+}
+
+
+main section#section_cartelas #topo {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #a988c9;
+    font-size: 1.5rem;
+}
+
+main section#section_cartelas #topo button {
+    border: none;
+    font-size: 1.5rem;
+    background-color: #a988c9;
+    margin-left: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-radius: 50px;
+    background: #b887c9;
+    box-shadow:  2px 2px 20px #9c73ab,
+             -2px -2px 20px #b887c9;
+}
+
+main section#section_cartelas #topo button:hover {
+    background-color: #fff;
+    margin-left: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 1px rgb(255, 255, 255);
+    text-shadow: 2px 1px rgb(255, 255, 255);
+    box-shadow:  2px 2px 20px #9c73ab,
+             -2px -2px 20px #b887c9;
+}
+
+main section#section_cartelas #area_cartelas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+}
+
+.nome {
+    color: #000;
+    font-size: 2rem;
+}
+
+.cartela {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+table {
+    font-size: 1.6rem;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table thead {
+    background-color: #39393a;
+    font-size: 2rem;
+}
+
+th,
+tr,
+td {
+    border: 2px solid #000;
+    width: 5vh;
+    height: 5vh;
+    text-align: center;
+}
+
+main section#section_jogo {
+    min-height: 99vh;
+    height: auto;
+    width: 30%;
+    background-color: #101111;
+}
+
+main section#section_jogo div#topo {
+    background-color: #a988c9;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+main section#section_jogo #botao-jogar {
+    font-size: 3rem;
+    color: #000;
+    border: none;
+    background: #b887c9;
+    box-shadow:  2px 2px 20px #9c73ab,
+             -2px -2px 20px #b887c9;
+    border-radius: 5%;
+    padding: 0.5rem;
+}
+
+main section#section_jogo #botao-jogar:hover {
+    color: #fff;
+}
+
+main section#section_jogo #area_numeros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.numero_sorteado {
+    background-color: #a988c9;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.5rem solid #000;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
